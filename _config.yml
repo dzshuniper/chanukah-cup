@@ -1,0 +1,17 @@
+title: Chanukah Cup # name of the site
+author: Gene # name of site's author
+email: dzshuniper@protonmail.com # email of site's author
+url: # root address of the site
+baseurl: # subpath of the site, e.g. "/blog"
+description: > # description of the site (multiple lines allowed)
+
+permalink: /:slug.html
+
+favicon: "logo.jpg" # name+extension of favicon (which must be put on the root folder
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
